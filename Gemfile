@@ -39,7 +39,8 @@ gem 'devise'
 gem 'rest-client'
 
 group :production do
-  gem 'pg'
+  # gem 'pg'
+  gem 'mysql2', '< 0.5'
 end
 
 group :development, :test do
